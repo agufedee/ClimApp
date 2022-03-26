@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    background-image: url("./bg/bg.jpg");
+    width: 600px;
+    margin: auto;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .15);
+    padding: 40px 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 3.3rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    padding: 15px;
+    color: #fef9ef;
+}
+
+h1 span {
+    font-size: 3.7rem;
+    color: #ffcb77;
+}
+
+.inputCiudad .searchCity {
+    margin: auto;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fef9ef;
+}
+
+.searchCity input {
+    display: block;
+    margin: 15px auto 10px;
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    padding: 0 15px;
+    font-size: 1rem;
+    background-color: #fef9ef;
+}
+
+.searchCity button {
+    display: block;
+    margin: 5px auto 0 auto;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #ffcb77;
+    padding: 5px 10px;
+}
+
+.container h2 {
+    text-align: center;
+    color: #fef9ef;
+    font-size:2rem;
+}
+
+.dataContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.dataContainer .temperatura {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: #fef9ef;
+}
+
+
+.dataContainer .iconContainer{
+    margin: auto;
+    visibility: unset;
+}
+
+.iconContainer .iconImg {
+    width: 150px;
+    margin: auto;
+
+}
+
+.dataContainer .minMax {
+    text-align: center;
+    margin: auto;
+}
+
+.minMax p {
+    font-size: 1.1rem;
+}
+
+.minMax span {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fef9ef;
+}
